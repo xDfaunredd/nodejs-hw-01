@@ -8,4 +8,3 @@ export const writeContacts = async (updatedContacts) => {
     console.log(error.message);
   }
 };
-writeContacts([{ id: '1' }, { id: '2' }]);
